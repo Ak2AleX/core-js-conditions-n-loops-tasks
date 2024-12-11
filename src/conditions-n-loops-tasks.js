@@ -216,8 +216,8 @@ function convertNumberToString(numberStr) {
  */
 function isPalindrome(str) {
   let palindrom = '';
-  for (let i = 0; i < str.length; i += 1) {
-    palindrom += str[str.length - 1 - i];
+  for (let f = 0; f < str.length; f += 1) {
+    palindrom += str[str.length - 1 - f];
   }
   return str === palindrom;
 }
@@ -238,9 +238,9 @@ function isPalindrome(str) {
  */
 function getIndexOf(str, letter) {
   let idx = -1;
-  for (let i = 0; i < str.length; i += 1) {
-    if (str[i] === letter) {
-      idx = i;
+  for (let s = 0; s < str.length; s += 1) {
+    if (str[s] === letter) {
+      idx = s;
       break;
     }
   }
